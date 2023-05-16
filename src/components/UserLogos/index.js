@@ -28,13 +28,13 @@ const settings = {
   // autoplaySpeed: 2000,
   dots: false,
   infinite: true,
-  slidesToShow: 3,
+  slidesToShow: 4,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 3500,
-  cssEase: "cubic-bezier(.43,.39,.33,.94)",
+  autoplaySpeed: 0,
+  cssEase: "linear",
   className: "testimonialSlider",
-  speed: 1500,
+  speed: 3000,
   responsive: [
     {
       breakpoint: 1800,

@@ -108,8 +108,9 @@ export const Prijeko = styled.div`
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-top: 20px;
   width: 130px;
-  height: 100px;
+  height: 60px;
 
   @media screen and (max-width: 500px) {
     width: 50px;
