@@ -12,8 +12,20 @@ export const HeroWrap = styled.div`
   padding-left: 130px;
   padding-top: 96px;
   /* overflow: hidden; */
+  @media screen and (max-width: 1090px) {
+    width: 100vw;
+    padding-left: 30px;
+    /* order: 1;
+    margin-bottom: 1rem; */
+  }
   @media screen and (max-width: 700px) {
     padding-left: 30px;
+    /* order: 1;
+    margin-bottom: 1rem; */
+  }
+  @media screen and (max-width: 560px) {
+    height: 923px;
+
     /* order: 1;
     margin-bottom: 1rem; */
   }
@@ -36,9 +48,9 @@ export const HeroOverlay = styled.div`
     margin-bottom: 1rem; */
   }
 `
-export const LogoHero = styled.div`
+export const LogoHero = styled.a`
   position: relative;
-
+  cursor: pointer;
   @media screen and (max-width: 768px) {
     /* order: 1;
     margin-bottom: 1rem; */
@@ -48,15 +60,15 @@ export const LogoHero = styled.div`
 export const HeroTitle = styled.h1`
   position: relative;
   width: 651px;
-  height: 195px;
-  margin-top: 127px;
+  height: auto;
+  margin-top: 80px;
   margin-bottom: 28px;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 80px;
   line-height: 94px;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
 
   @media screen and (max-width: 620px) {
     font-style: normal;
@@ -66,6 +78,30 @@ export const HeroTitle = styled.h1`
     /* or 117% */
     width: 90%;
     color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+`
+export const HeroSubTitle = styled.h1`
+  position: relative;
+  width: 730px;
+  height: auto;
+  margin-top: 27px;
+  margin-bottom: 28px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 63px;
+  line-height: 75px;
+  color: rgb(255, 255, 255);
+
+  @media screen and (max-width: 620px) {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    width: 90%;
+    color: rgb(255, 255, 255);
     margin-top: 50px;
     margin-bottom: 60px;
   }

@@ -3,11 +3,11 @@ import styled from "styled-components"
 export const FormWrap = styled.div`
   position: absolute;
   width: 480px;
-  height: 668px;
+  height: 560px;
   background: #ffffff;
   /* Gray04 */
   overflow: hidden;
-  top: 510px;
+  top: 170px;
   right: 130px;
   border: 1px solid #eaeaea;
   box-sizing: border-box;
@@ -21,9 +21,11 @@ export const FormWrap = styled.div`
     right: 50%;
     transform: translate(50%, 0);
   }
-  @media screen and (max-width: 430px) {
-    width: 95%;
-    top: 756px;
+  @media screen and (max-width: 560px) {
+    width: 93%;
+    height: 540px;
+
+    top: 895px;
     right: 50%;
     transform: translate(50%, 0);
   }
@@ -34,7 +36,7 @@ export const FormBehind = styled.div`
   width: 440px;
   height: 370px;
   right: 155px;
-  bottom: -90px;
+  bottom: 139px;
   z-index: 1;
   /* Gray04 */
 
@@ -47,7 +49,9 @@ export const FormBehind = styled.div`
     right: 50%;
     transform: translate(50%, 0);
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 560px) {
+    top: 890px;
+
     width: 85%;
   }
 `
@@ -178,7 +182,7 @@ export const FormTitle = styled.div`
   font-size: 16px;
   line-height: 30px;
   color: #0d3151;
-
+  text-align: center;
   @media screen and (max-width: 430px) {
     margin-left: 20px;
     margin-right: 10px;
@@ -201,23 +205,19 @@ export const FieldsWrap = styled.div`
 
   & input {
     width: 100%;
-    height: 60px;
+    height: 35px;
     margin-bottom: 15px;
     padding-left: 20px;
-    background: #ffffff;
-    /* Gray04 */
-
-    border: 1px solid #eaeaea;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(234, 234, 234);
     box-sizing: border-box;
     border-radius: 8px;
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-    /* identical to box height, or 187% */
-    /* Gray01 */
-    color: #2f2f2f;
+    color: rgb(47, 47, 47);
   }
   & input:focus {
     border: 1px solid #1d9ed9;
@@ -271,14 +271,19 @@ export const FieldsWrap = styled.div`
     cursor: pointer;
     color: #ffffff;
   }
+
   @media screen and (max-width: 1150px) {
     margin: 0 30px 40px 20px;
     width: 90%;
     & input {
       width: 100%;
-      height: 60px;
+      height: 40px;
       margin-bottom: 10px;
       padding-left: 20px;
+    }
+    & button {
+      width: 100%;
+      height: 60px;
     }
   }
 `
