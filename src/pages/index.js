@@ -20,7 +20,8 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="Prijavi se | Otkrij što Rentlio priprema. Otkrij Rentlio Pro." />
+      <Seo title="Rentlio Pro | #1 hotelski menadžment sustav" />
+
       <Hero />
       <UserLogos />
       {/* <Testimonial /> */}
