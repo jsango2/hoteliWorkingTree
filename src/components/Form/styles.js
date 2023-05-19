@@ -58,26 +58,27 @@ export const FormBehind = styled.div`
 export const FormOverlay = styled.div`
   position: absolute;
   width: 440px;
-  height: 646px;
+  height: 530px;
   right: 150px;
-  bottom: -406px;
+  bottom: 69px;
   z-index: 2;
-  background: #ffff;
-  /* box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.15); */
+  background: rgb(255, 255, 255);
   border-radius: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
-  color: #0d3151;
+  color: rgb(13, 49, 81);
   padding-top: 30px;
   padding-left: 40px;
   padding-right: 40px;
   display: flex;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
   flex-direction: column;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out 0s;
   @media screen and (max-width: 1150px) {
     max-width: 480px;
     width: 95%;
@@ -86,12 +87,11 @@ export const FormOverlay = styled.div`
     transform: translate(50%, 0);
   }
   @media screen and (max-width: 430px) {
-    height: 661px;
-
-    width: 95%;
-    top: 732px;
+    height: 504px;
+    width: 91%;
+    top: 907px;
     right: 50%;
-    transform: translate(50%, 0);
+    transform: translate(50%, 0px);
   }
 `
 export const WrapPipe = styled.div`
