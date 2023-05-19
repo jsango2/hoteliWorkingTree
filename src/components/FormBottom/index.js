@@ -37,7 +37,7 @@ const FormBottom = () => {
             Potpuno rješenje za upravljanje hotelom
           </Fact>
           <IspuniPodatke>
-            Ispuni podatke i ostvari pun potencijal!
+            Ispuni podatke i dogovori demo prezentaciju
           </IspuniPodatke>
         </TwoFacts>
       </TextBox>
