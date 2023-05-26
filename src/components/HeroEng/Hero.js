@@ -15,8 +15,7 @@ const Hero = () => {
   return (
     <HeroWrap>
       <HeroOverlay />
-
-      <LogoHero href="https://www.rentl.io">
+      <LogoHero href="https://www.rentl.io/en">
         <img src="/images/RentlioLogo.svg" alt="Logo" />
       </LogoHero>
       <HeroTitle>Rentlio Pro</HeroTitle>
