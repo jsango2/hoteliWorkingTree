@@ -20,7 +20,7 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.titleEng || `Title`
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="Rentlio Pro | #1 hotel menagement system" />
+      <Seo title="Rentlio Pro | #1 hotel management system" />
 
       <Hero />
       <UserLogos />
