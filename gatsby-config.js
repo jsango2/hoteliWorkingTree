@@ -4,11 +4,13 @@ require("dotenv").config()
 module.exports = {
   siteMetadata: {
     title: `Rentlio Hoteli Hr`,
+    titleEng: `Rentlio Hoteli En`,
     author: {
       name: `Rentlio`,
       summary: `Rentlio Hotel Landing Page`,
     },
     description: `Gomilate propuštene prilike zbog zastarjelog hotelskog sustava? Kako uštedjeti, poboljšati učinkovitost i povećati prihode - budite među prvima koji će saznati što Rentlio sprema!`,
+    descriptionEng: `Accumulating missed opportunities due to an outdated hotel system? How to save money, improve efficiency and increase revenue - be among the first to find out what Rentlio is up to!`,
     siteUrl: `https://localhost:8003/`,
     image: `/ogimage.png`,
     social: {

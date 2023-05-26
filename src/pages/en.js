@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Seo from "../components/seoEng"
 import Testimonial from "../components/testimonial/testimonial"
 import FourFacts from "../components/fourFactsEng/fourFacts"
 import { graphql } from "gatsby"
@@ -17,10 +17,10 @@ import Hero from "../components/HeroEng/Hero"
 
 const BlogIndex = ({ data, location }) => {
   const size = useWindowSize()
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const siteTitle = data.site.siteMetadata?.titleEng || `Title`
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="Rentlio Pro | #1 hotelski menadžment sustav" />
+      <Seo title="Rentlio Pro | #1 hotel menagement system" />
 
       <Hero />
       <UserLogos />
@@ -34,7 +34,7 @@ const BlogIndex = ({ data, location }) => {
       <Footer />
       <CookieConsent
         location="bottom"
-        buttonText="Slažem se"
+        buttonText="I agree"
         cookieName="pro.rentl.io"
         containerClasses="cookieConsent"
         buttonClasses="cookieButton"
@@ -43,18 +43,13 @@ const BlogIndex = ({ data, location }) => {
       >
         {size.width > 750 ? (
           <div>
-            Koristimo kolačiće radi pružanja najboljeg korisničkog iskustva.
-            Pregledavanjem i korištenjem naše internet stranice slažete se s
-            korištenjem kolačića u skladu s našim{" "}
-            <a href="https://rentl.io/izjava-o-kolacicima">
-              Pravilima o korištenju kolačića
-            </a>
+            We use cookies to give you the best online experience. By using our
+            website you agree to use our cookies in accordance with our
+            <a href="https://rentl.io/en/cookie-policy">Cookies policy</a>
           </div>
         ) : (
           <div>
-            <a href="https://rentl.io/izjava-o-kolacicima">
-              Pravila o korištenju kolačića
-            </a>
+            <a href="https://rentl.io/en/cookie-policy">Cookies policy</a>
           </div>
         )}
       </CookieConsent>
