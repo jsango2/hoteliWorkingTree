@@ -226,6 +226,8 @@ export const TraditionalTitle = styled.div`
   @media screen and (max-width: 768px) {
     /* order: 1;
   margin-bottom: 1rem; */
+    padding: 0 20px;
+    text-align: center;
   }
 `
 export const RightMob = styled.div`
