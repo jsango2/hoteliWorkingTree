@@ -563,6 +563,15 @@ a:focus {
 
   box-shadow: 0px 4px 10px rgba(0, 133, 255, 0.2);
 }
+.ghostEng:hover + .singleDataEng {
+  border: 1px solid #1d9ed9;
+  box-sizing: border-box;
+  background: #fff;
+  z-index: 4;
+  width: 1186px;
+
+  box-shadow: 0px 4px 10px rgba(0, 133, 255, 0.2);
+}
 .sectionOverlay {
   transform: translate(40%, 0%);
   transition: transform 1.8s cubic-bezier(0.11, 0.64, 0.26, 0.98);

@@ -3,31 +3,45 @@ import styled from "styled-components"
 export const FormWrap = styled.div`
   position: absolute;
   width: 480px;
-  height: 560px;
-  background: #ffffff;
-  /* Gray04 */
-  overflow: hidden;
-  top: 170px;
-  right: 130px;
-  border: 1px solid #eaeaea;
+  height: 585px;
   box-sizing: border-box;
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.15); */
   border-radius: 20px;
   z-index: 2;
-  @media screen and (max-width: 1150px) {
-    max-width: 480px;
-    width: 95%;
-    top: 732px;
-    right: 50%;
-    transform: translate(50%, 0);
+  margin-top: 30px;
+  @media screen and (max-width: 430px) {
+    width: 100%;
   }
-  @media screen and (max-width: 560px) {
-    width: 93%;
-    height: 540px;
+`
+export const FormOverlay = styled.div`
+  position: absolute;
+  width: 440px;
+  height: 590px;
+  /* right: 137px;
+  bottom: 66px; */
+  z-index: 2;
+  background: #ffff;
+  /* box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.15); */
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #0d3151;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
 
-    top: 895px;
-    right: 50%;
-    transform: translate(50%, 0);
+  @media screen and (max-width: 430px) {
+    width: 90%;
+    height: 610px;
+    /* right: 20px;
+    bottom: 7px; */
   }
 `
 
@@ -36,7 +50,7 @@ export const FormBehind = styled.div`
   width: 440px;
   height: 370px;
   right: 155px;
-  bottom: 139px;
+  bottom: -114px;
   z-index: 1;
   /* Gray04 */
 
@@ -44,60 +58,6 @@ export const FormBehind = styled.div`
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
 
-  @media screen and (max-width: 1150px) {
-    top: 748px;
-    right: 50%;
-    transform: translate(50%, 0);
-  }
-  @media screen and (max-width: 560px) {
-    top: 890px;
-
-    width: 85%;
-  }
-`
-export const FormOverlay = styled.div`
-  position: absolute;
-  width: 440px;
-  height: 530px;
-  right: 150px;
-  bottom: 69px;
-  z-index: 2;
-  background: rgb(255, 255, 255);
-  border-radius: 20px;
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 30px;
-  color: rgb(13, 49, 81);
-  padding-top: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  flex-direction: column;
-  transition: all 0.3s ease-in-out 0s;
-  @media screen and (max-width: 1150px) {
-    max-width: 480px;
-    width: 95%;
-    top: 732px;
-    right: 50%;
-    transform: translate(50%, 0);
-  }
-  @media screen and (max-width: 430px) {
-    height: 504px;
-    width: 91%;
-    top: 907px;
-    right: 50%;
-    transform: translate(50%, 0px);
-  }
-`
-export const WrapPipe = styled.div`
-  /* & input {
-    border: 2px solid red !important;
-  } */
   @media screen and (max-width: 768px) {
     /* order: 1;
     margin-bottom: 1rem; */
@@ -182,20 +142,10 @@ export const FormTitle = styled.div`
   font-size: 16px;
   line-height: 30px;
   color: #0d3151;
-  text-align: center;
-  @media screen and (max-width: 430px) {
-    margin-left: 20px;
-    margin-right: 10px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 30px;
-    /* identical to box height, or 214% */
 
-    /* Blue */
-
-    color: #0d3151;
+  @media screen and (max-width: 768px) {
+    /* order: 1;
+    margin-bottom: 1rem; */
   }
 `
 export const FieldsWrap = styled.div`
@@ -205,19 +155,23 @@ export const FieldsWrap = styled.div`
 
   & input {
     width: 100%;
-    height: 35px;
+    height: 60px;
     margin-bottom: 15px;
     padding-left: 20px;
-    background: rgb(255, 255, 255);
-    border: 1px solid rgb(234, 234, 234);
+    background: #ffffff;
+    /* Gray04 */
+
+    border: 1px solid #eaeaea;
     box-sizing: border-box;
     border-radius: 8px;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-    color: rgb(47, 47, 47);
+    /* identical to box height, or 187% */
+    /* Gray01 */
+    color: #2f2f2f;
   }
   & input:focus {
     border: 1px solid #1d9ed9;
@@ -271,24 +225,27 @@ export const FieldsWrap = styled.div`
     cursor: pointer;
     color: #ffffff;
   }
-
-  @media screen and (max-width: 1150px) {
-    margin: 0 30px 40px 20px;
-    width: 90%;
+  @media screen and (max-width: 430px) {
+    width: 86%;
     & input {
-      width: 100%;
-      height: 40px;
-      margin-bottom: 10px;
-      padding-left: 20px;
-    }
-    & button {
       width: 100%;
       height: 60px;
-    }
-  }
-  @media screen and (max-width: 430px) {
-    & input {
+      margin-bottom: 15px;
+      padding-left: 20px;
+      background: #ffffff;
+      /* Gray04 */
+
+      border: 1px solid #eaeaea;
+      box-sizing: border-box;
+      border-radius: 8px;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: normal;
       font-size: 14px;
+      line-height: 30px;
+      /* identical to box height, or 187% */
+      /* Gray01 */
+      color: #2f2f2f;
     }
   }
 `
