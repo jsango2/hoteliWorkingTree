@@ -7,14 +7,18 @@ import React from "react"
 //   WrapPipe,
 //   FormOverlay,
 // } from "./styles.js"
-import { FormWrap, FormOverlay, FieldsWrap } from "./styles.js"
-import logo from "../../../../static/images/RentlioLogoTamni.svg"
-import splitbee from "@splitbee/web"
 import {
-  getCountries,
-  getCountryCallingCode,
-} from "react-phone-number-input/input"
-import en from "react-phone-number-input/locale/en"
+  FormWrap,
+  FormOverlay,
+  FieldsWrap,
+  FormWrapEng,
+  FormOverlayEng,
+  FieldsWrapEng,
+} from "./styles.js"
+import logo from "../../../static/images/RentlioLogoTamni.svg"
+
+import splitbee from "@splitbee/web"
+
 import Country from "./country.js"
 const encode = data => {
   return Object.keys(data)
@@ -119,8 +123,8 @@ class Form extends React.Component {
 
     return (
       <>
-        <FormWrap>
-          <FieldsWrap>
+        <FormWrapEng>
+          <FieldsWrapEng>
             <form
               onSubmit={this.handleSubmit}
               data-splitbee-event="Signup Form"
@@ -211,8 +215,8 @@ class Form extends React.Component {
               type="submit"
             /> */}
             </form>
-          </FieldsWrap>
-        </FormWrap>
+          </FieldsWrapEng>
+        </FormWrapEng>
         {this.state.showModal ? (
           <FormOverlay>
             <div>

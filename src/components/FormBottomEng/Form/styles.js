@@ -152,6 +152,31 @@ export const FieldsWrap = styled.div`
   margin: 0 30px 40px 30px;
   height: 615px;
   width: 420px;
+  .country {
+    width: 50%;
+    margin-right: 5px;
+    height: 60px;
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #2f2f2f;
+    padding-left: 10px;
+  }
+  .phoneNumber {
+    width: 50%;
+  }
+
+  .propertyName {
+    width: 65%;
+  }
+  .numberOfRooms {
+    width: 40%;
+  }
 
   & input {
     width: 100%;
@@ -167,7 +192,7 @@ export const FieldsWrap = styled.div`
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 30px;
     /* identical to box height, or 187% */
     /* Gray01 */

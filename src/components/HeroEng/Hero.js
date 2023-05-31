@@ -9,7 +9,7 @@ import {
   HeroSubTitle,
   HeroParagraph2,
 } from "./styles.js"
-import Form2 from "../Form/form2eng.js"
+import Form2 from "../Form/formCountry"
 
 const Hero = () => {
   return (

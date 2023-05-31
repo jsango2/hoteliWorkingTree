@@ -60,7 +60,7 @@ const Clients = () => {
               />
               <Card
                 title="We as leaders have decided to use the Croatian leader."
-                text="From the beginning of our business, we have based everything online and digitally, and we have followed Rentlio since the beginning. For the last ten years, we have used global providers of PMS and channel managers, and we decided on the Croatian leader."
+                text="From the beginning of our business, we have based everything online and digitally, and we have followed Rentlio for many years. For the last ten years, we have used global providers of PMS and channel managers, but we decided to put our trust in Rentlio -  the leading Croatian hospitality solution."
                 avatar={Zovko}
                 owner="Tomislav Zovko"
                 hotel="Irundo"
@@ -90,7 +90,7 @@ const Clients = () => {
             />
             <Card
               title="We as leaders have decided to use the Croatian leader."
-              text="From the beginning of our business, we have based everything online and digitally, and we have followed Rentlio since the beginning. For the last ten years, we have used global providers of PMS and channel managers, and we decided on the Croatian leader."
+              text="From the beginning of our business, we have based everything online and digitally, and we have followed Rentlio for many years. For the last ten years, we have used global providers of PMS and channel managers, but we decided to put our trust in Rentlio -  the leading Croatian hospitality solution."
               avatar={Zovko}
               owner="Tomislav Zovko"
               hotel="Irundo"

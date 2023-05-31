@@ -15,7 +15,8 @@ export const tableData = [
   {
     info: "Product updates",
     rentlio: "Daily, without interruption of work.",
-    traditional: "Several times a year, with a complete several hours shutdown",
+    traditional:
+      "Several times a year, with a complete several hours shutdown.",
   },
   {
     info: "API access",
@@ -28,20 +29,20 @@ export const tableData = [
     info: "Equipment costs",
     rentlio: "No equipment needed.",
     traditional:
-      "It is necessary to regularly change and maintain specific equipment, such as servers and VPN connections",
+      "It is necessary to regularly change and maintain specific equipment, such as servers and VPN connections.",
   },
   {
     info: "Channel Manager",
     rentlio:
       "Integrated with the PMS system, developed in-house, synchronizes data in real-time.",
     traditional:
-      "The need for an external provider of channel manager services, which results in frequent errors in communication and data synchronization",
+      "The need for an external provider of channel manager services, which results in frequent errors in communication and data synchronization.",
   },
   {
     info: "Reports",
     rentlio: "Available with a click of the mouse.",
     traditional:
-      "Limited, in strictly defined formats, and unavailable in real-time",
+      "Limited, in strictly defined formats, and unavailable in real-time.",
   },
   {
     info: "Internal IT department",

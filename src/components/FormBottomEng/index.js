@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import {
   WrapFormBottom,
   TextBox,
@@ -19,6 +19,17 @@ const FormBottom = () => {
     // trigger inView function only once
     triggerOnce: true,
   })
+
+  // async function handleNavigator(pos) {
+  //   const { latitude, longitude } = pos.coords
+  //   console.log("Pozicija", longitude, latitude)
+  // }
+
+  // useEffect(() => {
+  //   navigator.geolocation.getCurrentPosition(handleNavigator, () =>
+  //     console.warn("permission was rejected")
+  //   )
+  // }, [])
   return (
     <WrapFormBottom>
       <TextBox ref={ref}>
