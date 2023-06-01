@@ -251,7 +251,8 @@ export const FieldsWrap = styled.div`
     color: #ffffff;
   }
   @media screen and (max-width: 430px) {
-    width: 86%;
+    width: 93%;
+    margin: 0 30px 40px 15px;
     & input {
       width: 100%;
       height: 60px;

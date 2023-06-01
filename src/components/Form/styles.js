@@ -289,6 +289,7 @@ export const FieldsWrap = styled.div`
   @media screen and (max-width: 430px) {
     & input {
       font-size: 14px;
+      padding-left: 10px;
     }
   }
 `
@@ -457,12 +458,13 @@ export const FieldsWrapEng = styled.div`
     color: #ffffff;
   }
   @media screen and (max-width: 430px) {
-    width: 86%;
+    width: 93%;
+    margin: 0 30px 40px 15px;
     & input {
       width: 100%;
       height: 60px;
       margin-bottom: 15px;
-      padding-left: 20px;
+      padding-left: 10px;
       background: #ffffff;
       /* Gray04 */
 
