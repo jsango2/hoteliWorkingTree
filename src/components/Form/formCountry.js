@@ -196,7 +196,7 @@ class Form extends React.Component {
                   className="phoneNumber"
                 />{" "}
               </div>
-              ;
+
               {/* <label className="container">
                 Želim primati Rentlio newsletter za hotele
                 <input
