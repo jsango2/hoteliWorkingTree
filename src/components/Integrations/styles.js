@@ -3,9 +3,9 @@ import styled from "styled-components"
 export const WrapIntegrationsSection = styled.div`
   position: relative;
   width: 100%;
-  height: 671px;
+  height: auto;
   padding-top: 180px;
-
+  padding-bottom: 100px;
   background: linear-gradient(180deg, #eaeaea 0%, #ffffff 76.18%);
   clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
   -webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
@@ -28,6 +28,7 @@ export const Logos = styled.div`
   justify-content: space-between;
   margin-top: 80px;
   flex-wrap: wrap;
+  justify-content: space-around;
   @media screen and (max-width: 430px) {
     width: 100%;
     justify-content: center;
@@ -81,8 +82,9 @@ export const Linija = styled.div`
   }
 `
 export const Image = styled.div`
+  margin: 20px 40px;
   img {
-    width: 230px;
+    width: 180px;
     height: 90px;
     object-fit: contain;
   }
