@@ -25,10 +25,10 @@ export const Logos = styled.div`
   width: 90%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 80px;
   flex-wrap: wrap;
-  justify-content: space-around;
+
   @media screen and (max-width: 430px) {
     width: 100%;
     justify-content: center;
