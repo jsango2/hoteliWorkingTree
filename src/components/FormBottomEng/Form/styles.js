@@ -172,7 +172,7 @@ export const FieldsWrap = styled.div`
   }
 
   .propertyName {
-    width: 65%;
+    width: 60%;
   }
   .numberOfRooms {
     width: 40%;

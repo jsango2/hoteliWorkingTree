@@ -175,7 +175,7 @@ class Form extends React.Component {
                 onChange={this.handleChange}
               />
               <div style={{ display: "flex" }}>
-                <Country getData={this.getData} />
+                <Country getData={this.getData} required />
                 {/* <input
                   type="text"
                   placeholder="Country"

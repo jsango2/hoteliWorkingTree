@@ -9,7 +9,14 @@ import countryNames from "react-phone-number-input/locale/en"
 import lookupCountry from "./lookupCountry"
 import "react-phone-number-input/style.css"
 
-const CountrySelect = ({ getData, value, onChange, labels, ...rest }) => {
+const CountrySelect = ({
+  getData,
+  required,
+  value,
+  onChange,
+  labels,
+  ...rest
+}) => {
   const [code, setCode] = useState()
   //   getData(code)
   return (
@@ -24,6 +31,7 @@ const CountrySelect = ({ getData, value, onChange, labels, ...rest }) => {
           countryNames[event.target.value]
         )
       )}
+      required
     >
       <option value="">{labels.ZZ}</option>
       {getCountries().map(country => (

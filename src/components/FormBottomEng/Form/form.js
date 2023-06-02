@@ -10,11 +10,6 @@ import React from "react"
 import { FormWrap, FormOverlay, FieldsWrap } from "./styles.js"
 import logo from "../../../../static/images/RentlioLogoTamni.svg"
 import splitbee from "@splitbee/web"
-import {
-  getCountries,
-  getCountryCallingCode,
-} from "react-phone-number-input/input"
-import en from "react-phone-number-input/locale/en"
 import Country from "./country.js"
 const encode = data => {
   return Object.keys(data)
@@ -171,7 +166,7 @@ class Form extends React.Component {
                 onChange={this.handleChange}
               />
               <div style={{ display: "flex" }}>
-                <Country getData={this.getData} />
+                <Country getData={this.getData} required />
                 {/* <input
                   type="text"
                   placeholder="Country"

@@ -538,9 +538,6 @@ a:focus {
   visibility: visible;
 }
 
-.noVisibleOverlay {
-  /* display: none; */
-}
 .visibleOverlay {
   background: #ffffff;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
@@ -580,8 +577,7 @@ a:focus {
 .photoStart {
   transform: translate(0%, 0%);
 }
-.photoEnd {
-}
+
 @media only screen and (max-width: 750px) {
   .cookieConsent {
     align-items: center !important;
