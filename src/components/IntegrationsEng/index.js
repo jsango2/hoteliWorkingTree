@@ -40,9 +40,6 @@ const Integrations = () => {
 
       <Logos>
         <Image>
-          <img src={p1} alt="p1" height="100%" />
-        </Image>
-        <Image>
           <img src={p5} alt="p5" height="100%" />
         </Image>
         <Image>
@@ -71,9 +68,6 @@ const Integrations = () => {
         </Image>
         <Image>
           <img src={p2} alt="p2" height="100%" />
-        </Image>
-        <Image>
-          <img src={p3} alt="p3" height="100%" />
         </Image>
         <Image>
           <img src={p4} alt="p4" height="100%" />
