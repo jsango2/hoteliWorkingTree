@@ -83,6 +83,8 @@ export const Linija = styled.div`
 `
 export const Image = styled.div`
   margin: 20px 40px;
+  display: flex;
+
   img {
     width: 180px;
     height: 90px;

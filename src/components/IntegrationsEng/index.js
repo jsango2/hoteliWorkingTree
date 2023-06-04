@@ -39,7 +39,7 @@ const Integrations = () => {
       </SaznajKako>
 
       <Logos>
-        <Image>
+        <Image style={{ paddingTop: "15px" }}>
           <img src={p5} alt="p5" height="100%" />
         </Image>
         <Image>
