@@ -30,7 +30,7 @@ const FourFacts = () => {
         key={2}
         titleUp="Reliable"
         slide="3-minute response time"
-        title="We respond to your inquiry in just 3 minutes."
+        title="We respond to your inquiry in just 3 minutes"
         textUp="Users rate 99% of Rentlio customer support conversations as outstanding or excellent. Besides the superb customer support, our onboarding team will help you set up your hotel on Rentlio Pro and educate your teams."
         textDown=""
         imageBg={p2bg}
@@ -43,7 +43,7 @@ const FourFacts = () => {
         key={3}
         titleUp="Profitable"
         slide="25% higher income"
-        title="OTA channels charge an average of 15-30% commission."
+        title="OTA channels charge an average of 15-30% commission"
         textUp="Rentlio Booking Engine allows you to make more direct bookings and additional income with only a 2% commission. By centralizing inquiries and with more direct bookings, your income can increase by up to 25%."
         textDown=""
         imageBg={p3bg}
