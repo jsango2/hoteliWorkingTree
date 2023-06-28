@@ -30,13 +30,13 @@ import { GradientBottomLine } from "../../components/testimonial/styles.js"
 const Integrations = () => {
   return (
     <WrapIntegrationsSection className="box">
-      <Title>Povežite što želite</Title>
+      <Title>Povežite, kar želite</Title>
       <Text>
-        Bez odugovlačenja, bez dodatnog osoblja - povezivanje bez dodatnih
-        naknada. Povežite (sve, baš sve) što vaš hotel treba.
+        Brez zamud, brez dodatnega osebja - brez dodatnih stroškov za povezavo.
+        Povežite vse (ampak res vse), kar vaš hotel potrebuje.
       </Text>
       <SaznajKako>
-        <a href="https://rentl.io/integracije">Saznaj kako</a>
+        <a href="https://rentl.io/integracije">Preberi več</a>
         <Linija />
       </SaznajKako>
 

@@ -5,7 +5,7 @@ import {
   FormTitle,
   FieldsWrap,
   FormOverlay,
-} from "./styles.js"
+} from "./stylesSLO.js"
 import logo from "../../../static/images/RentlioLogoTamni.svg"
 import splitbee from "@splitbee/web"
 

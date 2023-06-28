@@ -71,7 +71,7 @@ const TableSection = () => {
       ) : (
         <TableSectionWrap>
           <Intro>
-            Cloud is the <span className="buducnost">future</span> present
+            Oblak je <span className="buducnost">prihodnost</span> sedanjost
           </Intro>
 
           <TableMobWrap>
@@ -90,10 +90,7 @@ const TableSection = () => {
               ))}
             </LeftMob>
             <RightMob>
-              <TraditionalTitle>
-                {" "}
-                Legacy (on-premise) solutions
-              </TraditionalTitle>
+              <TraditionalTitle> Tradicionalni sistem</TraditionalTitle>
               {tableData.map(data => (
                 <React.Fragment key={data.info}>
                   <WrapTraditionalBox>

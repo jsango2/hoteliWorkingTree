@@ -32,7 +32,7 @@ export const tableData = [
       "Potrebno je redno menjati in vzdrževati specifično opremo (kot so strežniki in VPN povezave)",
   },
   {
-    info: "Upravljavec kanalov (Channel Manager)",
+    info: "Upravljavec kanalov",
     rentlio:
       "Integriran s sistemom za upravljanje nepremičnin (PMS), produkt lastnega razvoja, sinhronizira podatke v realnem času",
     traditional:
