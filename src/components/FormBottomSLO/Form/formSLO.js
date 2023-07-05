@@ -185,12 +185,8 @@ class Form extends React.Component {
         {this.state.showModal ? (
           <FormOverlay>
             <div>
-              {this.state.ime.split(" ")[0]}, odbrojavanje za Rentlio Pro je
-              počelo i, prije svega, želimo se uvjeriti kako smo predvidjeli
-              svaku vašu, pa i najmanju potrebu.
-              <br /> Naš hotelski tech stručnjak će Vas kontaktirati unutar 24
-              sata kako bismo Vam približili pogodnosti očekivanog Rentlio Pro
-              hotelskog sustava.
+              Naš tehnološki strokovnjak vas bo kontaktiral v 24 urah in vam
+              predstavil prednosti hotelskega sistema Rentlio Pro.
             </div>
             <div
               style={{ marginTop: "50px" }}

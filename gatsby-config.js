@@ -11,6 +11,7 @@ module.exports = {
     },
     description: `Gomilate propuštene prilike zbog zastarjelog hotelskog sustava? Kako uštedjeti, poboljšati učinkovitost i povećati prihode - budite među prvima koji će saznati što Rentlio sprema!`,
     descriptionEng: `Accumulating missed opportunities due to an outdated hotel system? How to save money, improve efficiency and increase revenue - be among the first to find out what Rentlio is up to!`,
+    descriptionSlo: `Ali se vam kopičijo zamujene priložnosti zaradi zastarelega hotelskega sistema? Kako prihraniti denar, izboljšati učinkovitost in povečati prihodke - bodite med prvimi, ki bodo izvedeli, kaj pripravlja Rentlio!`,
     siteUrl: `https://localhost:8003/`,
     image: `/ogimage.png`,
     social: {

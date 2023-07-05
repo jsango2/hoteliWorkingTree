@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import Layout from "../components/layout"
-import Seo from "../components/seoEng"
+import Seo from "../components/seoSLO"
 import Testimonial from "../components/testimonial/testimonial"
 import FourFacts from "../components/fourFactsSLO/fourFacts"
 import { graphql } from "gatsby"
