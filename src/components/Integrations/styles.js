@@ -84,9 +84,10 @@ export const Linija = styled.div`
 export const Image = styled.div`
   margin: 20px 40px;
   display: flex;
-
+  background-position: ${props =>
+    props.position ? props.position : "50% 50%"};
   img {
-    width: 180px;
+    width: ${props => (props.small ? `140px` : `180px`)};
     height: 90px;
     object-fit: contain;
   }

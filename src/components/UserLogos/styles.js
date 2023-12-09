@@ -66,9 +66,11 @@ export const SanRocco = styled.div`
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   width: 130px;
   height: 100px;
+  opacity: 0.6;
   @media screen and (max-width: 500px) {
     width: 100px;
     height: 80px;
@@ -80,9 +82,12 @@ export const Martinis = styled.div`
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   width: 130px;
   height: 100px;
+  opacity: 0.6;
+
   @media screen and (max-width: 500px) {
     width: 100px;
     height: 80px;
@@ -96,6 +101,10 @@ export const Bevanda = styled.div`
   background-repeat: no-repeat;
   width: 130px;
   height: 100px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  opacity: 0.6;
+
+  filter: grayscale(100%);
   @media screen and (max-width: 500px) {
     margin-top: 40px;
     width: 50px;
@@ -111,7 +120,10 @@ export const Prijeko = styled.div`
   margin-top: 20px;
   width: 130px;
   height: 60px;
+  opacity: 0.6;
 
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   @media screen and (max-width: 500px) {
     width: 50px;
     height: 35px;
@@ -125,7 +137,10 @@ export const Verdi = styled.div`
   background-repeat: no-repeat;
   width: 130px;
   height: 100px;
+  opacity: 0.6;
 
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   @media screen and (max-width: 500px) {
     width: 100px;
     height: 80px;
@@ -139,7 +154,10 @@ export const Cittar = styled.div`
   background-repeat: no-repeat;
   width: 130px;
   height: 100px;
+  opacity: 0.6;
 
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   @media screen and (max-width: 500px) {
     width: 100px;
     height: 80px;
@@ -153,7 +171,10 @@ export const Palace = styled.div`
   background-repeat: no-repeat;
   width: 130px;
   height: 100px;
+  opacity: 0.6;
 
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   @media screen and (max-width: 400px) {
     width: 30vw;
   }
@@ -166,7 +187,10 @@ export const Republika = styled.div`
   background-repeat: no-repeat;
   width: 130px;
   height: 100px;
+  opacity: 0.6;
 
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   @media screen and (max-width: 400px) {
     width: 30vw;
   }
@@ -179,7 +203,10 @@ export const Scalini = styled.div`
   background-repeat: no-repeat;
   width: 130px;
   height: 100px;
+  opacity: 0.6;
 
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   @media screen and (max-width: 400px) {
     width: 30vw;
   }
@@ -192,7 +219,10 @@ export const Puntjar = styled.div`
   background-repeat: no-repeat;
   width: 130px;
   height: 100px;
+  opacity: 0.6;
 
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   @media screen and (max-width: 400px) {
     width: 30vw;
   }
@@ -205,7 +235,10 @@ export const Jarun = styled.div`
   background-repeat: no-repeat;
   width: 130px;
   height: 100px;
+  opacity: 0.6;
 
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   @media screen and (max-width: 400px) {
     width: 100px;
     height: 80px;
@@ -219,7 +252,10 @@ export const Vista = styled.div`
   background-repeat: no-repeat;
   width: 130px;
   height: 100px;
+  opacity: 0.6;
 
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   @media screen and (max-width: 400px) {
     width: 100px;
     height: 80px;

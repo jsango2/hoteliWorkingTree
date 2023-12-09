@@ -6,8 +6,8 @@ export const WrapFooterSection = styled.div`
   height: 816px;
   background: linear-gradient(180deg, #eaeaea 0%, #ffffff 100%);
   padding-top: 200px;
-  clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
-  -webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
+  /* clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%); */
   display: flex;
   justify-content: flex-start;
   align-items: center;

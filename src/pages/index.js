@@ -27,10 +27,10 @@ const BlogIndex = ({ data, location }) => {
       {/* <Testimonial /> */}
       <FourFacts />
       <TableSection />
-      <Clients />
+      {/* <Clients /> */}
       <Integrations />
       <FormBottom />
-      <BlogCards />
+      {/* <BlogCards /> */}
       <Footer />
       <CookieConsent
         location="bottom"

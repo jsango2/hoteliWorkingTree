@@ -16,7 +16,7 @@ import Twitter from "../../../static/images/Twitter.svg"
 import Linkedin from "../../../static/images/Linkedin@2x.svg"
 import captera from "../../../static/images/captera.png"
 import booking from "../../../static/images/bookingcom.svg"
-import pref from "../../../static/images/prefcust.svg"
+import pref from "../../../static/images/AirBnbNew.png"
 import expedia from "../../../static/images/expedia.svg"
 
 const Footer = () => {
@@ -81,7 +81,7 @@ const Footer = () => {
           <img src={booking} alt="booking.com" />
         </a>
         <a href="https://www.airbnb.com" target="_blank">
-          <img src={pref} alt="preffered customer" />{" "}
+          <img src={pref} alt="preffered customer" width={190} />{" "}
         </a>
         <a href="https://www.expedia.com" target="_blank">
           <img src={expedia} alt="espedia.com" />{" "}

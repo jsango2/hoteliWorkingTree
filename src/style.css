@@ -591,9 +591,9 @@ a:focus {
 
 @media only screen and (max-width: 600px) {
   .sectionOverlay img {
-    width: 210%;
+    width: 68%;
   }
   .photoStart {
-    transform: translate(-100%, -18%);
+    transform: translate(-60%, 1%);
   }
 }

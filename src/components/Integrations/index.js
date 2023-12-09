@@ -21,6 +21,7 @@ import p10 from "../../../static/images/mailchimp.png"
 import p11 from "../../../static/images/pricelabs.png"
 import p12 from "../../../static/images/stripe.png"
 import p13 from "../../../static/images/sweeply.png"
+import p14 from "../../../static/images/Saop_logo.png"
 import Lottie from "lottie-react"
 import gradientAnimation from "../../components/testimonial/animation"
 import { GradientBottomLine } from "../../components/testimonial/styles.js"
@@ -28,10 +29,13 @@ import { GradientBottomLine } from "../../components/testimonial/styles.js"
 const Integrations = () => {
   return (
     <WrapIntegrationsSection className="box">
-      <Title>Povežite što želite</Title>
+      <Title>Povežite Rentlio s alatima koje koristite</Title>
       <Text>
         Bez odugovlačenja, bez dodatnog osoblja - povezivanje bez dodatnih
-        naknada. Povežite (sve, baš sve) što vaš hotel treba.
+        naknada. Povežite (sve, baš sve) što vaš hotel treba. &gt; Otvorena API
+        dokumentacija omogućit će vam da jednostavno povežete Rentlio s drugim
+        alatima koje koristite i kreirate savršeni ekosistem u skladu s vašim
+        potrebama.
       </Text>
       <SaznajKako>
         <a href="https://rentl.io/integracije">Saznaj kako</a>
@@ -77,6 +81,9 @@ const Integrations = () => {
         </Image>
         <Image>
           <img src={p4} alt="p4" height="100%" />
+        </Image>
+        <Image small>
+          <img src={p14} alt="p14" height="40px" />
         </Image>
       </Logos>
       <GradientBottomLine>

@@ -24,6 +24,10 @@ const Fact = ({
   imageTop,
   imageLeft,
   width,
+  widthBG,
+  placeMiddle,
+  topImageWidth,
+  overlayMiddle,
 }) => {
   const { ref, inView } = useInView({
     /* Optional options */
@@ -45,8 +49,8 @@ const Fact = ({
           </BlueNumber>
         </WrapTitle>
         <Title1>{title}</Title1>
-        <Paragraph>{textUp}</Paragraph>
-        <Paragraph>{textDown}</Paragraph>
+        <Paragraph dangerouslySetInnerHTML={{ __html: textUp }}></Paragraph>
+        <Paragraph dangerouslySetInnerHTML={{ __html: textDown }}></Paragraph>
       </TextBox>
       <Photo
         image={image}
@@ -55,6 +59,9 @@ const Fact = ({
         imageTop={imageTop}
         imageLeft={imageLeft}
         width={width}
+        widthBG={widthBG}
+        topImageWidth={topImageWidth}
+        overlayMiddle={overlayMiddle}
       />
     </Box>
   )

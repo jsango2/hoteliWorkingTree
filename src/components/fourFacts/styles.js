@@ -1,11 +1,12 @@
 import styled from "styled-components"
 import bg4 from "../../images/bg4.png"
 
-export const FourFactsWrap = styled.div`
+export const FactsWrap = styled.div`
   position: relative;
   z-index: 2;
   width: 100%;
-  height: 2450px;
+  /* height: 2450px; */
+  height: auto;
   background-image: url(${bg4});
   background-position: center;
   background-size: cover;
@@ -57,13 +58,16 @@ export const Box = styled.div`
 export const PhotoComp = styled.div`
   position: relative;
   z-index: 1;
-  width: 580px;
+  /* width: 580px; */
+  width: ${props => props.width}px;
+
   height: 400px;
   /* background-color: azure; */
   border-radius: 15px;
-  overflow: hidden;
+  /* overflow: hidden; */
   background: ${props => `url(${props.photo}) `};
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: ${props =>
     props.position ? props.position : "50% 50%"};
   /* img {
@@ -80,12 +84,15 @@ export const PhotoOverlay = styled.div`
   z-index: 2;
   top: ${props => props.imageTop};
   left: ${props => props.imageLeft};
-  width: ${props => props.width};
+  width: ${props => props.width}px;
   height: 100%;
-  img {
+  /* transform: ${props =>
+    props.overlayMiddle === true ? `translate(0,50%)` : `translate(0,0)`}; */
+
+  /* img {
     -webkit-box-shadow: -2px 0px 15px 5px rgba(0, 36, 69, 0.3);
     box-shadow: -2px 0px 15px 5px rgba(0, 36, 69, 0.3);
-  }
+  } */
   @media screen and (max-width: 430px) {
   }
 `
