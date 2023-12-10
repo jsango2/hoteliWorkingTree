@@ -31,11 +31,9 @@ const Integrations = () => {
     <WrapIntegrationsSection className="box">
       <Title>Povežite Rentlio s alatima koje koristite</Title>
       <Text>
-        Bez odugovlačenja, bez dodatnog osoblja - povezivanje bez dodatnih
-        naknada. Povežite (sve, baš sve) što vaš hotel treba. &gt; Otvorena API
-        dokumentacija omogućit će vam da jednostavno povežete Rentlio s drugim
-        alatima koje koristite i kreirate savršeni ekosistem u skladu s vašim
-        potrebama.
+        Otvorena API dokumentacija omogućit će vam da jednostavno povežete
+        Rentlio s drugim alatima koje koristite i kreirate savršeni ekosistem u
+        skladu s vašim potrebama.
       </Text>
       <SaznajKako>
         <a href="https://rentl.io/integracije">Saznaj kako</a>

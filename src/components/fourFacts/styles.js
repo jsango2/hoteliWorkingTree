@@ -157,7 +157,7 @@ export const BoxGreenTitle = styled.h5`
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-
+  width: 180px;
   /* Green */
 
   color: #a9cf3a;
