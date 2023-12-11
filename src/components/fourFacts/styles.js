@@ -74,8 +74,11 @@ export const PhotoComp = styled.div`
     object-fit: contain;
   } */
   @media screen and (max-width: 430px) {
+    background-size: cover;
+
+    /* margin: 0 auto; */
     width: 100%;
-    height: 62vw;
+    height: 75vw;
     margin-top: 69px;
   }
 `
@@ -100,7 +103,7 @@ export const PhotoOverlay2 = styled.div`
   position: absolute;
   z-index: 2;
   top: -30px;
-  right: 120px;
+  right: 40px;
   width: 170px;
   height: 100%;
   /* transform: ${props =>
@@ -111,6 +114,7 @@ export const PhotoOverlay2 = styled.div`
     box-shadow: -2px 0px 15px 5px rgba(0, 36, 69, 0.3);
   } */
   @media screen and (max-width: 430px) {
+    width: 100px;
   }
 `
 export const TextBox = styled.div`
@@ -174,7 +178,7 @@ export const BoxGreenTitle = styled.h5`
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-  width: 180px;
+  /* width: a; */
   /* Green */
 
   color: #a9cf3a;

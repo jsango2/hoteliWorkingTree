@@ -25,16 +25,16 @@ const FourFacts = () => {
         slide="80% manje administracije"
         title="Rentlio kokpit"
         textUp="Pristup svim najvažnijim detaljima o vašim gostima i
-rezervacijama na jednom mjestu.<br/><br/>
+rezervacijama na jednom mjestu.<br/>
+<ul>
+<li>Uvid u dolaske i odlaske gostiju i naplatu rezervacija</li>
 
-• Uvid u dolaske i odlaske gostiju i naplatu rezervacija<br/>
+<li>Uvid u housekeeping status soba i kanale prodaje</li>
 
-• Uvid u housekeeping status soba i kanale prodaje<br/>
+<li>Brzo i jednostavno pretraživanje rezervacija</li>
 
-• Brzo i jednostavno pretraživanje rezervacija<br/>
-
-• Najava obroka s informacijama o planiranom broju i vrsti obroka po danima te dnevnoj listi s brojem sobe i gostiju
- "
+<li>Najava obroka s informacijama o planiranom broju i vrsti obroka po danima te dnevnoj listi s brojem sobe i gostiju</li>
+</ul>"
         textDown=""
         // image={p1}
         imageBg={pbg}
@@ -52,17 +52,19 @@ rezervacijama na jednom mjestu.<br/><br/>
         textUp="Centralni kalendar Rentlio Pro PMS sustava daje vam potpunu
 kontrolu nad rezervacijama, a zahvaljujući integriranom
 Channel Manageru preklapanje rezervacija je stvar prošlosti."
-        textDown="• Uvid u sve rezervacije i popunjenost smještajnih kapaciteta <br/>
+        textDown="<ul>
+<li>Uvid u sve rezervacije i popunjenost smještajnih kapaciteta </li>
 
-• Pregled svih detalja rezervacije<br/>
+<li>Pregled svih detalja rezervacije</li>
 
-• Pojedinačno i skupno uređivanje cijena, upravljanje
-dostupnošću i restrikcijama u samo nekoliko klikova<br/>
+<li>Pojedinačno i skupno uređivanje cijena, upravljanje
+dostupnošću i restrikcijama u samo nekoliko klikova</li>
 
-• Jednostavna izrada višestrukih cjenika<br/>
+<li>Jednostavna izrada višestrukih cjenika</li>
 
-• Uvid u housekeeping status soba, dolaske i odlaske gostiju
-kao i naplatu rezervacija "
+<li>Uvid u housekeeping status soba, dolaske i odlaske gostiju
+kao i naplatu rezervacija</li>
+        </ul> "
         imageBg={p2bg}
         // image={p2}
         position="50% 0%"
@@ -76,24 +78,25 @@ kao i naplatu rezervacija "
         slide="Nekoliko jednostavnih koraka"
         title="Upiti i ponude"
         textUp="Povežite email adresu hotela s Rentlio Pro sustavom i
-optimizirajte rad call centra i odjela prodaje.<br/><br/>
+optimizirajte rad call centra i odjela prodaje.<br/>
+<ul>
+<li>Automatizirano generiranje upita pristiglih putem request formi s
+web stranice i email-a hotela</li>
 
-• Automatizirano generiranje upita pristiglih putem request formi s
-web stranice i email-a hotela<br/>
+<li>Optimizirani unos telefonskih upita sa svim preferencama gostiju</li>
 
-• Optimizirani unos telefonskih upita sa svim preferencama gostiju<br/>
+<li>Odgovaranje na upite gostiju izravno iz sučelja</li>
 
-• Odgovaranje na upite gostiju izravno iz sučelja<br/>
+<li>Prilagođeni pregled statusa svih upita na jednom mjestu</li>
 
-• Prilagođeni pregled statusa svih upita na jednom mjestu<br/>
+<li>Brzo, efikasno i jednostavno slanje prilagođenih ponuda gostima</li>
 
-• Brzo, efikasno i jednostavno slanje prilagođenih ponuda gostima<br/>
+<li>Slanje jedne ili više bookabilnih ponuda za smještaj i dodatne usluge uz mogućnost izravne rezervacije od strane gosta</li>
 
-• Slanje jedne ili više bookabilnih ponuda za smještaj i dodatne usluge uz mogućnost izravne rezervacije od strane gosta<br/>
-
-• Fleksibilnost u odabiru jezika, načina plaćanja te ažuriranja
+<li>Fleksibilnost u odabiru jezika, načina plaćanja te ažuriranja
 raspoloživosti i dostupnosti od primitka ponude do kreiranja
-rezervacije"
+rezervacije</li>
+</ul>"
         textDown=""
         imageBg={p3bg}
         position="0% 50%"
@@ -105,21 +108,21 @@ rezervacije"
         slide="Samo par klikova mišem"
         title="Folio"
         textUp="Jednostavno i fleksibilno upravljanje troškovima uz dijeljenje i
-prebacivanje troškova gostiju - u samo par klikova.<br/><br/>
+prebacivanje troškova gostiju - u samo par klikova.<br/>
+<ul>
+<li>Pregled i upravljanje potrošnjom gostiju tijekom boravka</li>
 
-• Pregled i upravljanje potrošnjom gostiju tijekom boravka<br/>
+<li>Dodavanje usluga, naknada i vanpansionske potrošnje</li>
 
-• Dodavanje usluga, naknada i vanpansionske potrošnje<br/>
+<li>Automatsko preuzimanje restoranskih usluga na rezervaciju
+smještaja</li>
 
-• Automatsko preuzimanje restoranskih usluga na rezervaciju
-smještaja<br/>
+<li>Pregled svih otvorenih i zatvorenih računa s jasnim uvidom u
+iznose</li>
 
-• Pregled svih otvorenih i zatvorenih računa s jasnim uvidom u
-iznose<br/>
+<li>Upravljanje naplatom i izdavanje računa</li>
 
-• Upravljanje naplatom i izdavanje računa<br/>
-
-• Pregled svih troškova i konzumacije na jednom mjestu"
+<li>Pregled svih troškova i konzumacije na jednom mjestu</li></ul>"
         textDown=""
         image={Folio}
         imageBg={FolioBG}
@@ -203,11 +206,11 @@ termine i odabiru ponude u skladu sa svojim potrebama."
         image={BE2}
         image2={BE3}
         topImageWidth="50"
-        width="190"
+        width="230"
         // image={p2}
         position="0% 0%"
-        imageTop="50px"
-        imageLeft="166px"
+        imageTop="0px"
+        imageLeft="196px"
         widthBG="550"
       />
       <Fact
