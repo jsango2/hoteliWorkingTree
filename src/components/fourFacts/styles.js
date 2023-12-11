@@ -66,7 +66,7 @@ export const PhotoComp = styled.div`
   border-radius: 15px;
   /* overflow: hidden; */
   background: ${props => `url(${props.photo}) `};
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: ${props =>
     props.position ? props.position : "50% 50%"};
@@ -85,6 +85,23 @@ export const PhotoOverlay = styled.div`
   top: ${props => props.imageTop};
   left: ${props => props.imageLeft};
   width: ${props => props.width}px;
+  height: 100%;
+  /* transform: ${props =>
+    props.overlayMiddle === true ? `translate(0,50%)` : `translate(0,0)`}; */
+
+  /* img {
+    -webkit-box-shadow: -2px 0px 15px 5px rgba(0, 36, 69, 0.3);
+    box-shadow: -2px 0px 15px 5px rgba(0, 36, 69, 0.3);
+  } */
+  @media screen and (max-width: 430px) {
+  }
+`
+export const PhotoOverlay2 = styled.div`
+  position: absolute;
+  z-index: 2;
+  top: -30px;
+  right: 120px;
+  width: 170px;
   height: 100%;
   /* transform: ${props =>
     props.overlayMiddle === true ? `translate(0,50%)` : `translate(0,0)`}; */

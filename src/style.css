@@ -573,8 +573,15 @@ a:focus {
   transform: translate(40%, 0%);
   transition: transform 1.8s cubic-bezier(0.11, 0.64, 0.26, 0.98);
 }
+.sectionOverlay2 {
+  transform: translate(20%, -20%);
+  transition: transform 1.8s cubic-bezier(0.11, 0.64, 0.26, 0.98);
+}
 
 .photoStart {
+  transform: translate(0%, 0%);
+}
+.photoStart2 {
   transform: translate(0%, 0%);
 }
 

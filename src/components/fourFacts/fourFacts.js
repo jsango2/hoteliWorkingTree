@@ -1,6 +1,9 @@
 import React from "react"
 
 import pbg from "../../../static/images/Kokpit.png"
+import BEbg from "../../../static/images/BE1.png"
+import BE2 from "../../../static/images/BE2.png"
+import BE3 from "../../../static/images/BE3.png"
 import p2bg from "../../../static/images/Kalendar.png"
 import p3bg from "../../../static/images/Upitiiponuda.png"
 import Folio from "../../../static/images/Folio2.png"
@@ -146,9 +149,7 @@ Prilagodite prodajne i marketinške strategije uz:<br/><br/>
 
 • Mogućnost usporedbe s prethodnim periodima<br/>
 
-• Uvid u popunjenost i dinamiku popunjavanja kapaciteta<br/>
-
-• Daily pick-up by rate i daily pick-up by unit"
+• Uvid u popunjenost i dinamiku popunjavanja kapaciteta<br/>  "
         textDown=""
         imageBg={p5bg}
         position="0% 0%"
@@ -198,11 +199,15 @@ Povećajte stope konverzije pružajući posjetiteljima web
 stranice da jednostavno uspoređuju cijene, pretražuju
 termine i odabiru ponude u skladu sa svojim potrebama."
         textDown=""
-        imageBg={Kokpit}
+        imageBg={BEbg}
+        image={BE2}
+        image2={BE3}
+        topImageWidth="50"
+        width="190"
         // image={p2}
         position="0% 0%"
-        imageTop="150px"
-        imageLeft="216px"
+        imageTop="50px"
+        imageLeft="166px"
         widthBG="550"
       />
       <Fact

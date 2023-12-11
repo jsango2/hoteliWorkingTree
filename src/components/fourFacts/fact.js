@@ -18,6 +18,7 @@ const Fact = ({
   textDown,
   slide,
   image,
+  image2,
   imageBg,
   id,
   position,
@@ -40,13 +41,13 @@ const Fact = ({
       <TextBox>
         <WrapTitle>
           <BoxGreenTitle>{titleUp}</BoxGreenTitle>
-          <BlueNumber
+          {/* <BlueNumber
             className={` ${
               inView ? "scale-up-hor-left" : "scale-up-hor-left-start"
             }`}
           >
             <span className={` ${inView ? "fade-in" : ""}`}>{slide}</span>
-          </BlueNumber>
+          </BlueNumber> */}
         </WrapTitle>
         <Title1>{title}</Title1>
         <Paragraph dangerouslySetInnerHTML={{ __html: textUp }}></Paragraph>
@@ -55,6 +56,7 @@ const Fact = ({
       <Photo
         image={image}
         imageBg={imageBg}
+        image2={image2}
         position={position}
         imageTop={imageTop}
         imageLeft={imageLeft}

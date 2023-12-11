@@ -4,18 +4,21 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import {
   UserLogosWrap,
-  SanRocco,
-  Martinis,
+  Adeo,
+  Amabilis,
+  Amare,
+  Amerun,
   Bevanda,
-  Prijeko,
-  Verdi,
-  Cittar,
-  Palace,
-  Republika,
-  Scalini,
-  Puntjar,
-  Jarun,
-  Vista,
+  Crystal,
+  FortyFour,
+  Hostin,
+  KanjonZrmanja,
+  KulinAblana,
+  Martinis,
+  SanGiorgio,
+  SanRocco,
+  Tolero,
+  Vitar,
 } from "./styles.js"
 
 const settings = {
@@ -60,7 +63,7 @@ const settings = {
         autoplay: true,
         autoplaySpeed: 0,
         rows: 2,
-        slidesPerRow: 2,
+        slidesPerRow: 1,
         cssEase: "linear",
         className: "testimonialSlider",
         speed: 4500,
@@ -73,18 +76,22 @@ const UserLogos = () => {
   return (
     <UserLogosWrap>
       <Slider {...settings}>
-        <SanRocco />
+        <Adeo />
+        <Amabilis />
+        <Amerun />
+        <Crystal />
+        <FortyFour />
+        <Hostin />
+        <KanjonZrmanja />
+        <KulinAblana />
         <Martinis />
+        <SanGiorgio />
+        <SanRocco />
         <Bevanda />
-        <Prijeko />
-        <Verdi />
-        <Cittar />
-        <Palace />
-        <Republika />
-        <Scalini />
-        <Puntjar />
-        <Jarun />
-        <Vista />
+        <Tolero />
+        <Vitar />
+        <Martinis />
+        <Amare />
       </Slider>
     </UserLogosWrap>
   )

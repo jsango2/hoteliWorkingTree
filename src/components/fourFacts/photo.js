@@ -1,5 +1,5 @@
 import React from "react"
-import { PhotoComp, PhotoOverlay } from "./styles.js"
+import { PhotoComp, PhotoOverlay, PhotoOverlay2 } from "./styles.js"
 import { useInView } from "react-intersection-observer"
 
 const Photo = ({
@@ -11,6 +11,7 @@ const Photo = ({
   width,
   widthBG,
   topImageWidth,
+  image2,
 }) => {
   const { ref, inView } = useInView({
     /* Optional options */
@@ -35,6 +36,14 @@ const Photo = ({
       >
         <img src={image} alt="" width="115%" />
       </PhotoOverlay>
+      <PhotoOverlay2
+        imageTop={imageTop}
+        imageLeft={imageLeft}
+        width={width}
+        className={`sectionOverlay2 ${inView ? " photoStart2" : "photoEnd2"} `}
+      >
+        <img src={image2} alt="" width="115%" />
+      </PhotoOverlay2>
     </PhotoComp>
   )
 }
