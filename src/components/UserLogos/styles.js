@@ -8,7 +8,7 @@ import crystal from "../../../static/images/hoteli/Crystal.png"
 import fortyfour from "../../../static/images/hoteli/FortyFour.png"
 import hostin from "../../../static/images/hoteli/Hostin.png"
 import kanjonZrmanja from "../../../static/images/hoteli/KanjonZrmanja.png"
-import kulinAblana from "../../../static/images/hoteli/KulinAblana.png"
+import kA from "../../../static/images/hoteli/KA.png"
 import martinis from "../../../static/images/hoteli/MartinisMarchi.png"
 import miramare from "../../../static/images/hoteli/Miramare.png"
 import sanGiorgio from "../../../static/images/hoteli/SanGiorgio.png"
@@ -268,7 +268,7 @@ export const KanjonZrmanja = styled.div`
 `
 export const KulinAblana = styled.div`
   /* grid-area: 1 / 1 / 2 / 2; */
-  background-image: url(${kulinAblana});
+  background-image: url(${kA});
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
