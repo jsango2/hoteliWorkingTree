@@ -143,7 +143,7 @@ u stvarnom vremenu.<br/>
 
 <ul>
 Analizirajte ključne pokazatelje uspješnosti bez analiziranja i
-pivotiranja Excel tablica - Rentlio Pro pruža vam uvid u sve!<br/>
+pivotiranja Excel tablica - Rentlio Pro pruža vam uvid u sve!<br/><br/>
 
 Prilagodite prodajne i marketinške strategije uz:<br/>
 
@@ -210,8 +210,8 @@ termine i odabiru ponude u skladu sa svojim potrebama."
         width="230"
         // image={p2}
         position="0% 0%"
-        imageTop="0px"
-        imageLeft="196px"
+        imageTop="2px"
+        imageLeft="216px"
         widthBG="550"
       />
       <Fact

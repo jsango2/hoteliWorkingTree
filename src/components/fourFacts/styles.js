@@ -103,8 +103,8 @@ export const PhotoOverlay = styled.div`
 export const PhotoOverlay2 = styled.div`
   position: absolute;
   z-index: 2;
-  top: -30px;
-  right: 40px;
+  top: -60px;
+  right: 120px;
   width: 170px;
   height: 100%;
   /* transform: ${props =>
@@ -115,6 +115,8 @@ export const PhotoOverlay2 = styled.div`
     box-shadow: -2px 0px 15px 5px rgba(0, 36, 69, 0.3);
   } */
   @media screen and (max-width: 430px) {
+    top: -60px;
+    right: 20px;
     width: 100px;
   }
 `
