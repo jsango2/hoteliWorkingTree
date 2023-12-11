@@ -141,18 +141,19 @@ iznose</li>
         textUp="Donosite poslovne odluke temeljene na podacima prikupljenim
 u stvarnom vremenu.<br/>
 
+<ul>
 Analizirajte ključne pokazatelje uspješnosti bez analiziranja i
-pivotiranja Excel tablica - Rentlio Pro pruža vam uvid u sve!<br/><br/>
+pivotiranja Excel tablica - Rentlio Pro pruža vam uvid u sve!<br/>
 
-Prilagodite prodajne i marketinške strategije uz:<br/><br/>
+Prilagodite prodajne i marketinške strategije uz:<br/>
 
-• Raznovrsne poslovne izvještaje<br/>
+<li>Raznovrsne poslovne izvještaje</li>
 
-• Detaljnu statistiku prodajnih rezultata po tržištima i kanalima<br/>
+<li>Detaljnu statistiku prodajnih rezultata po tržištima i kanalima</li>
 
-• Mogućnost usporedbe s prethodnim periodima<br/>
+<li>Mogućnost usporedbe s prethodnim periodima</li>
 
-• Uvid u popunjenost i dinamiku popunjavanja kapaciteta<br/>  "
+<li>Uvid u popunjenost i dinamiku popunjavanja kapaciteta</li></ul> "
         textDown=""
         imageBg={p5bg}
         position="0% 0%"

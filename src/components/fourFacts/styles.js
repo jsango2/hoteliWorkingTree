@@ -53,6 +53,7 @@ export const Box = styled.div`
     &:nth-child(even) {
       flex-direction: column;
     }
+    padding-left: 10px;
   }
 `
 export const PhotoComp = styled.div`
