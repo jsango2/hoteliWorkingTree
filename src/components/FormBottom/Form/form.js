@@ -185,12 +185,10 @@ class Form extends React.Component {
         {this.state.showModal ? (
           <FormOverlay>
             <div>
-              {this.state.ime.split(" ")[0]}, odbrojavanje za Rentlio Pro je
-              počelo i, prije svega, želimo se uvjeriti kako smo predvidjeli
-              svaku vašu, pa i najmanju potrebu.
+              {this.state.ime.split(" ")[0]}, hvala što ste ispunili formu i
+              pokazali interes za Rentlio Pro sustav.
               <br /> Naš hotelski tech stručnjak će Vas kontaktirati unutar 24
-              sata kako bismo Vam približili pogodnosti očekivanog Rentlio Pro
-              hotelskog sustava.
+              sata u svrhu dogovaranja termina za demo prezentaciju.
             </div>
             <div
               style={{ marginTop: "50px" }}
