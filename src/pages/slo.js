@@ -11,7 +11,7 @@ import Integrations from "../components/IntegrationsSLO"
 import FormBottom from "../components/FormBottomSLO"
 import BlogCards from "../components/BlogCardsSLO"
 import Footer from "../components/Footer"
-import CookieConsent from "react-cookie-consent"
+// import CookieConsent from "react-cookie-consent"
 import useWindowSize from "../components/helper/useWindowSize"
 import Hero from "../components/HeroSLO/Hero"
 
@@ -32,7 +32,7 @@ const BlogIndex = ({ data, location }) => {
       <FormBottom />
       <BlogCards />
       <Footer />
-      <CookieConsent
+      {/* <CookieConsent
         location="bottom"
         buttonText="I agree"
         cookieName="pro.rentl.io"
@@ -52,7 +52,7 @@ const BlogIndex = ({ data, location }) => {
             <a href="https://rentl.io/en/cookie-policy">Cookies policy</a>
           </div>
         )}
-      </CookieConsent>
+      </CookieConsent> */}
     </Layout>
   )
 }

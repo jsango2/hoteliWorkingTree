@@ -12,7 +12,7 @@ import Integrations from "../components/Integrations"
 import FormBottom from "../components/FormBottom"
 import BlogCards from "../components/BlogCards"
 import Footer from "../components/Footer"
-import CookieConsent from "react-cookie-consent"
+// import CookieConsent from "react-cookie-consent"
 import useWindowSize from "../components/helper/useWindowSize"
 
 const BlogIndex = ({ data, location }) => {
@@ -32,7 +32,7 @@ const BlogIndex = ({ data, location }) => {
       <FormBottom />
       {/* <BlogCards /> */}
       <Footer />
-      <CookieConsent
+      {/* <CookieConsent
         location="bottom"
         buttonText="Slažem se"
         cookieName="pro.rentl.io"
@@ -57,7 +57,7 @@ const BlogIndex = ({ data, location }) => {
             </a>
           </div>
         )}
-      </CookieConsent>
+      </CookieConsent> */}
     </Layout>
   )
 }
