@@ -117,6 +117,7 @@ class Form2 extends React.Component {
             <form
               onSubmit={this.handleSubmit}
               data-splitbee-event="Signup Form"
+              id="proform_top"
             >
               <input
                 type="text"
