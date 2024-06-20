@@ -79,7 +79,7 @@ const UserLogos = () => {
         <Adeo />
         <Amabilis />
         <Amerun />
-        <Crystal />
+        {/* <Crystal /> */}
         <FortyFour />
         <Hostin />
         <KanjonZrmanja />
@@ -87,7 +87,7 @@ const UserLogos = () => {
         <Martinis />
         <SanGiorgio />
         <SanRocco />
-        <Bevanda />
+        {/* <Bevanda /> */}
         <Tolero />
         <Vitar />
         <Martinis />
